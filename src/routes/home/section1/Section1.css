@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+    gap: 147px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.section1__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1__titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.section1__title1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 63.39px;
+    font-family: "Montserrat" sans-serif !important;
+    font-family: sans-serif;
+    color: #d05270;
+}
+
+.section1__title2 {
+    font-family: "Montserrat" sans-serif !important;
+    width: 600px;
+    font-family: sans-serif;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 63.39px;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.section1__text {
+    width: 631px;
+    font-family: "Montserrat" sans-serif !important;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    color: #424242;
+    text-align: left;
+}
+
+.section1__btns {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.section1__btns a {
+    text-decoration: none;
+}
+
+.section1__btns button {
+    width: 201px;
+    height: 60px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.section1__btns p {
+    font-family: "Montserrat" sans-serif !important;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    text-align: left;
+    color: white;
+}
+
+.section1__btn1 {
+    background: #47acdf;
+}
+
+.section1__btn1 img {
+    width: 18px;
+    height: 15px;
+}
+
+.section1__btn2 {
+    background: #1275b1;
+}
+
+.section1__btn2 img {
+    width: 18px;
+    height: 15px;
+}
+
+.section1__btn3 {
+    background: #000000;
+}
+
+.section1__btn3 img {
+    width: 18px;
+    height: 15px;
+}
+
+.section1__img {
+    position: relative;
+    top: -40px;
+}
+
+.section1__img div {
+    position: absolute;
+    width: 360px;
+    height: 225px;
+    top: 40px;
+    background-color: #d05270;
+    border-radius: 20px;
+}
+
+.section1__img img {
+    position: absolute;
+    width: 367px;
+    height: 407px;
+    top: 0;
+}

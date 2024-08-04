@@ -1,0 +1,84 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact {
+    background-color: #a59f9f;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.contact h2 {
+    color: black;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.contact__map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 1600px;
+    height: 200px;
+    outline: none;
+    border: none;
+
+    @media (max-width: 1600px) {
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+}
+
+.contact__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.contact__info-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact__info-item img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact__info-item h4 {
+    color: rgb(88, 86, 86);
+    font-size: 18px;
+}
+
+.contact__info-item p {
+    color: rgb(102, 98, 98);
+    font-size: 14px;
+    font-weight: 300;
+}

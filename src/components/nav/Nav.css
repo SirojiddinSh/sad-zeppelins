@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    margin-top: 50px;
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_title {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav__title__1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -3px;
+    color: #424242;
+    text-align: center;
+}
+
+.nav__title__div {
+    display: flex;
+    gap: 10px;
+}
+
+.nav__title__2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    line-height: 36px;
+    letter-spacing: -3px;
+    color: #424242;
+    text-align: center;
+}
+
+.nav_HireMe {
+    position: relative;
+    width: 70px;
+    height: 25px;
+    background-color: #5a47ab;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.nav_HireMe::after {
+    content: "";
+    position: absolute;
+    border: 13px solid transparent;
+    border-right: 12px solid #5a47ab;
+    left: -24px;
+    top: 0.06em;
+    bottom: 0;
+    margin: auto;
+}
+
+.nav__in {
+    width: 14px;
+    height: 10px;
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 9px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.nav__hire {
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.19px;
+    text-align: left;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav_links ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_links ul li {
+    list-style: none;
+}
+
+.nav_links ul li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    color: #424242;
+}
+
+.active {
+    color: #5c43c9 !important;
+    border-bottom: 1px solid #5c43c9;
+}
+
+select {
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    background-color: white;
+}
+
+select option {
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+}
